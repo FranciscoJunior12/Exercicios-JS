@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Do Dado</title>
+</head>
+
+<style>
+    button {
+        height: 50px;
+        width: 160px;
+        border-radius: 10px;
+        border:solid 0.5px;
+        font-weight: bold;
+        font-family: monospace;
+        font-size: 20px;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: hsl(300, 35%, 33%);
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+    img{
+        border-radius: 10px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #7e6f7e;
+        font-family: monospace;
+       
+
+
+    }
+
+    div {
+        display: flex;
+        padding: 50px;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10%;
+        gap: 30px;
+        align-items: center;
+        border: solid 2px black;
+        border-radius: 20px;
+        width: auto 0;
+    
+    }
+</style>
+
+<body>
+    <div>
+        <h1>JS - Aula 6: Jogo de Dado</h1>
+        <img src="img/face1.png" alt="dado" id="face">
+        <button onclick="lancarDado()">Lançar Dado</button>
+    </div>
+  
+    <script src="script.js"></script>
+</body>
+
+</html>

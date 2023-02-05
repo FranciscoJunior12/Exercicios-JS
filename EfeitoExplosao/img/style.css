@@ -1,0 +1,16 @@
+body {
+
+
+    background-color: #07060a;
+    color: #ff0000;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+ 
+}
+
+#fire{
+    cursor: pointer;
+    max-width: 100%;
+}
