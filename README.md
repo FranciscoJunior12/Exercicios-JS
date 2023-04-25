@@ -1,3 +1,3 @@
-# Exercicios-JS
+# Exercícios JavaScript
  
-##### Execicios feitos durante o curso de JavaScript para iniciantes.
+##### Exercícios feitos durante o curso de JavaScript para iniciantes.
